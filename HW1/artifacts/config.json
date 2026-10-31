@@ -1,0 +1,23 @@
+{
+  "data_root": "data/chest_xray",
+  "output_dir": "artifacts",
+  "image_size": 128,
+  "latent_dim": 128,
+  "batch_size": 32,
+  "epochs": 20,
+  "learning_rate": 0.0002,
+  "min_learning_rate": 1e-05,
+  "weight_decay": 0.0001,
+  "beta": 0.5,
+  "beta_warmup_epochs": 10,
+  "l1_weight": 0.75,
+  "bce_weight": 0.05,
+  "edge_weight": 0.2,
+  "eval_samples": 512,
+  "eval_batch_size": 8,
+  "num_workers": 0,
+  "seed": 285,
+  "max_train_samples": null,
+  "skip_metrics": false,
+  "augment": true
+}

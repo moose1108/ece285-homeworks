@@ -1,0 +1,316 @@
+[
+  {
+    "step": 0,
+    "monitor": {
+      "train_seen_reconstruction": {
+        "mae": 0.03703603520989418,
+        "mse": 0.0027370703173801303,
+        "psnr": 26.192675590515137,
+        "ssim": 0.6810158491134644,
+        "target_gradient_magnitude": 0.01807428477331996,
+        "reconstruction_gradient_magnitude": 0.00823430041782558,
+        "gradient_mae": 0.016855592373758554
+      },
+      "raw_kl": 153.81390380859375,
+      "posterior_variance": 0.1376945823431015,
+      "aggregate_mean_abs": 0.36385393142700195,
+      "aggregate_radius_per_dimension": 1.001164197921753,
+      "aggregate_std_mean": 0.8774172067642212,
+      "scope": "Deterministic decode(mu) on train-seen images; not held-out validation",
+      "prior_sampling": "Three complete 25-image grids, private CPU N(0,I), temperature1, seeds285/1285/2285"
+    },
+    "training_seconds": 0.0
+  },
+  {
+    "step": 100,
+    "interval_steps": 100,
+    "training_seconds": 21.3795662909979,
+    "loss": 751.1533996582032,
+    "l1_sum": 688.9881982421875,
+    "raw_kl": 156.29861404418946,
+    "beta": 0.39899999999999997,
+    "learning_rate": 9.981793399457538e-05,
+    "gradient_norm": 13185.971728515626
+  },
+  {
+    "step": 200,
+    "interval_steps": 100,
+    "training_seconds": 39.588121041000704,
+    "loss": 687.9008795166015,
+    "l1_sum": 650.6494073486328,
+    "raw_kl": 191.529462890625,
+    "beta": 0.19899999999999998,
+    "learning_rate": 9.871990796416593e-05,
+    "gradient_norm": 14026.02740234375
+  },
+  {
+    "step": 300,
+    "interval_steps": 100,
+    "training_seconds": 57.926846000002115,
+    "loss": 663.5372772216797,
+    "l1_sum": 640.0120928955079,
+    "raw_kl": 235.25181533813478,
+    "beta": 0.09999999999999998,
+    "learning_rate": 9.654535270162303e-05,
+    "gradient_norm": 12047.353088378906
+  },
+  {
+    "step": 400,
+    "interval_steps": 100,
+    "training_seconds": 78.44991508299427,
+    "loss": 653.4069818115235,
+    "l1_sum": 629.3637451171875,
+    "raw_kl": 240.4323516845703,
+    "beta": 0.09999999999999998,
+    "learning_rate": 9.33478129744456e-05,
+    "gradient_norm": 10824.641905517577
+  },
+  {
+    "step": 500,
+    "interval_steps": 100,
+    "training_seconds": 98.87986816599732,
+    "loss": 653.1631213378906,
+    "l1_sum": 628.5537487792968,
+    "raw_kl": 246.09375686645507,
+    "beta": 0.09999999999999998,
+    "learning_rate": 8.920602282274272e-05,
+    "gradient_norm": 16586.401365966798,
+    "monitor": {
+      "train_seen_reconstruction": {
+        "mae": 0.036320618353784084,
+        "mse": 0.0026195916580036283,
+        "psnr": 26.381812572479248,
+        "ssim": 0.6876897662878036,
+        "target_gradient_magnitude": 0.01807428477331996,
+        "reconstruction_gradient_magnitude": 0.008270932245068252,
+        "gradient_mae": 0.016531732864677906
+      },
+      "raw_kl": 247.6549835205078,
+      "posterior_variance": 0.04333524405956268,
+      "aggregate_mean_abs": 0.2675764560699463,
+      "aggregate_radius_per_dimension": 1.1455004215240479,
+      "aggregate_std_mean": 0.9820005297660828,
+      "scope": "Deterministic decode(mu) on train-seen images; not held-out validation",
+      "prior_sampling": "Three complete 25-image grids, private CPU N(0,I), temperature1, seeds285/1285/2285"
+    }
+  },
+  {
+    "step": 600,
+    "interval_steps": 100,
+    "training_seconds": 124.12472158299352,
+    "loss": 641.3376843261718,
+    "l1_sum": 616.7225827026367,
+    "raw_kl": 246.15099090576172,
+    "beta": 0.09999999999999998,
+    "learning_rate": 8.422196686586271e-05,
+    "gradient_norm": 7810.6609240722655
+  },
+  {
+    "step": 700,
+    "interval_steps": 100,
+    "training_seconds": 147.21408662499744,
+    "loss": 634.7002447509766,
+    "l1_sum": 609.986060180664,
+    "raw_kl": 247.141854095459,
+    "beta": 0.09999999999999998,
+    "learning_rate": 7.851836910259739e-05,
+    "gradient_norm": 11953.303005371094
+  },
+  {
+    "step": 800,
+    "interval_steps": 100,
+    "training_seconds": 164.8393640830036,
+    "loss": 628.1692669677734,
+    "l1_sum": 603.3842834472656,
+    "raw_kl": 247.84984481811523,
+    "beta": 0.09999999999999998,
+    "learning_rate": 7.223567103903402e-05,
+    "gradient_norm": 10798.348298339844
+  },
+  {
+    "step": 900,
+    "interval_steps": 100,
+    "training_seconds": 182.67309087500325,
+    "loss": 632.4402355957031,
+    "l1_sum": 607.3568560791016,
+    "raw_kl": 250.83379608154297,
+    "beta": 0.09999999999999998,
+    "learning_rate": 6.552857355257697e-05,
+    "gradient_norm": 9964.659864501953
+  },
+  {
+    "step": 1000,
+    "interval_steps": 100,
+    "training_seconds": 199.8646807079931,
+    "loss": 620.0427905273438,
+    "l1_sum": 594.9753887939453,
+    "raw_kl": 250.67402084350587,
+    "beta": 0.09999999999999998,
+    "learning_rate": 5.85622276429232e-05,
+    "gradient_norm": 7256.622378540039,
+    "monitor": {
+      "train_seen_reconstruction": {
+        "mae": 0.03611648175865412,
+        "mse": 0.00257478142157197,
+        "psnr": 26.430975437164307,
+        "ssim": 0.6904106885194778,
+        "target_gradient_magnitude": 0.01807428477331996,
+        "reconstruction_gradient_magnitude": 0.008261349867098033,
+        "gradient_mae": 0.016486062668263912
+      },
+      "raw_kl": 250.21766662597656,
+      "posterior_variance": 0.03720007836818695,
+      "aggregate_mean_abs": 0.26551640033721924,
+      "aggregate_radius_per_dimension": 1.075555682182312,
+      "aggregate_std_mean": 0.9478181600570679,
+      "scope": "Deterministic decode(mu) on train-seen images; not held-out validation",
+      "prior_sampling": "Three complete 25-image grids, private CPU N(0,I), temperature1, seeds285/1285/2285"
+    }
+  },
+  {
+    "step": 1100,
+    "interval_steps": 100,
+    "training_seconds": 219.27411766600562,
+    "loss": 616.4302581787109,
+    "l1_sum": 591.1593231201172,
+    "raw_kl": 252.7093650817871,
+    "beta": 0.09999999999999998,
+    "learning_rate": 5.150816786634491e-05,
+    "gradient_norm": 7748.966064453125
+  },
+  {
+    "step": 1200,
+    "interval_steps": 100,
+    "training_seconds": 236.79396854099468,
+    "loss": 607.7447216796875,
+    "l1_sum": 582.2268621826172,
+    "raw_kl": 255.17863021850587,
+    "beta": 0.09999999999999998,
+    "learning_rate": 4.454008858562365e-05,
+    "gradient_norm": 6642.521895751953
+  },
+  {
+    "step": 1300,
+    "interval_steps": 100,
+    "training_seconds": 254.2718326250033,
+    "loss": 602.0385736083985,
+    "l1_sum": 576.4128317260743,
+    "raw_kl": 256.25743255615237,
+    "beta": 0.09999999999999998,
+    "learning_rate": 3.782956703838006e-05,
+    "gradient_norm": 5590.175948486328
+  },
+  {
+    "step": 1400,
+    "interval_steps": 100,
+    "training_seconds": 271.81341166599304,
+    "loss": 596.7704254150391,
+    "l1_sum": 570.9036154174805,
+    "raw_kl": 258.6680891418457,
+    "beta": 0.09999999999999998,
+    "learning_rate": 3.1541838536051435e-05,
+    "gradient_norm": 6182.975627441407
+  },
+  {
+    "step": 1500,
+    "interval_steps": 100,
+    "training_seconds": 289.9106936659955,
+    "loss": 595.301248474121,
+    "l1_sum": 569.3805450439453,
+    "raw_kl": 259.2070291137695,
+    "beta": 0.09999999999999998,
+    "learning_rate": 2.5831727822139614e-05,
+    "gradient_norm": 4403.771123046875,
+    "monitor": {
+      "train_seen_reconstruction": {
+        "mae": 0.0343579463660717,
+        "mse": 0.002367070526815951,
+        "psnr": 26.823556423187256,
+        "ssim": 0.6959760040044785,
+        "target_gradient_magnitude": 0.01807428477331996,
+        "reconstruction_gradient_magnitude": 0.008434297982603312,
+        "gradient_mae": 0.016371304634958506
+      },
+      "raw_kl": 258.8997497558594,
+      "posterior_variance": 0.031113144010305405,
+      "aggregate_mean_abs": 0.23934043943881989,
+      "aggregate_radius_per_dimension": 1.029464840888977,
+      "aggregate_std_mean": 0.9370861053466797,
+      "scope": "Deterministic decode(mu) on train-seen images; not held-out validation",
+      "prior_sampling": "Three complete 25-image grids, private CPU N(0,I), temperature1, seeds285/1285/2285"
+    }
+  },
+  {
+    "step": 1600,
+    "interval_steps": 100,
+    "training_seconds": 315.6095075829944,
+    "loss": 592.9502380371093,
+    "l1_sum": 566.9253005981445,
+    "raw_kl": 260.2493505859375,
+    "beta": 0.09999999999999998,
+    "learning_rate": 2.0839836773192066e-05,
+    "gradient_norm": 3318.611699829102
+  },
+  {
+    "step": 1700,
+    "interval_steps": 100,
+    "training_seconds": 339.7091310410033,
+    "loss": 583.9822839355469,
+    "l1_sum": 557.8923266601563,
+    "raw_kl": 260.89960815429686,
+    "beta": 0.09999999999999998,
+    "learning_rate": 1.668908231397044e-05,
+    "gradient_norm": 4354.251050415039
+  },
+  {
+    "step": 1800,
+    "interval_steps": 100,
+    "training_seconds": 359.98429695800587,
+    "loss": 590.9204547119141,
+    "l1_sum": 564.8114016723633,
+    "raw_kl": 261.0905403137207,
+    "beta": 0.09999999999999998,
+    "learning_rate": 1.3481669794825033e-05,
+    "gradient_norm": 3950.3650970458984
+  },
+  {
+    "step": 1900,
+    "interval_steps": 100,
+    "training_seconds": 378.40921016600623,
+    "loss": 581.3792272949219,
+    "l1_sum": 555.3390859985352,
+    "raw_kl": 260.40141693115237,
+    "beta": 0.09999999999999998,
+    "learning_rate": 1.1296576356769065e-05,
+    "gradient_norm": 3377.034765625
+  },
+  {
+    "step": 2000,
+    "interval_steps": 100,
+    "training_seconds": 396.9221697909961,
+    "loss": 579.6084552001953,
+    "l1_sum": 553.3716723632813,
+    "raw_kl": 262.3678120422363,
+    "beta": 0.09999999999999998,
+    "learning_rate": 1.0187606252156826e-05,
+    "gradient_norm": 3051.232022705078,
+    "monitor": {
+      "train_seen_reconstruction": {
+        "mae": 0.033834476955235004,
+        "mse": 0.0022983747185207903,
+        "psnr": 26.955198287963867,
+        "ssim": 0.6976175606250763,
+        "target_gradient_magnitude": 0.01807428477331996,
+        "reconstruction_gradient_magnitude": 0.008370837545953691,
+        "gradient_mae": 0.016304756747558713
+      },
+      "raw_kl": 261.04522705078125,
+      "posterior_variance": 0.028380660340189934,
+      "aggregate_mean_abs": 0.22741013765335083,
+      "aggregate_radius_per_dimension": 0.9847124218940735,
+      "aggregate_std_mean": 0.9184406399726868,
+      "scope": "Deterministic decode(mu) on train-seen images; not held-out validation",
+      "prior_sampling": "Three complete 25-image grids, private CPU N(0,I), temperature1, seeds285/1285/2285"
+    }
+  }
+]

@@ -1,0 +1,232 @@
+{
+  "repository": "ece285-homeworks",
+  "visibility": "public",
+  "contents": "Pure VAE source, lightweight recorded results and report; no data or model weights",
+  "metadata_paths": "Workspace prefixes replaced with relative paths; numeric results and checkpoint hashes retained",
+  "files": {
+    ".gitignore": {
+      "bytes": 723,
+      "sha256": "9621790ba84f8d25d804bbf4590de06b31fc1dd68c9871ea00b4254050d5d274"
+    },
+    "HW1/README.md": {
+      "bytes": 6284,
+      "sha256": "6037314f4570741eb48944d015fe3de5948c9f096258cde1927cee3c642faf66"
+    },
+    "HW1/artifacts/config.json": {
+      "bytes": 490,
+      "sha256": "30ac6ddf97c680654f3a9de9a77b6a36e8d49c9e1d689d5a65aecf8e4b12d945"
+    },
+    "HW1/artifacts/evaluation_manifest.json": {
+      "bytes": 27553,
+      "sha256": "e450edd34964254ec2889359d4650c1c110005c12a5204011a8d4507fde8b06b"
+    },
+    "HW1/artifacts/history.json": {
+      "bytes": 11456,
+      "sha256": "70f74ebf6b5b9a3549501063f2f9c568d58118711ba7b842adad5f2a9c712e8f"
+    },
+    "HW1/artifacts/metrics.json": {
+      "bytes": 1221,
+      "sha256": "0bf77b9ab41a4a6c1ff2f02c23e1e857c8ac672ddeef5e3a01e8ed2ee4f5e973"
+    },
+    "HW1/diagnostic_metrics.py": {
+      "bytes": 5493,
+      "sha256": "21290dd0723528bdd4f55c47f5b9704a95b3feb7e8d4bbe8ed75b04aaad32a89"
+    },
+    "HW1/download_data.py": {
+      "bytes": 1588,
+      "sha256": "a21d68a8acf13c85d55193e62f2cc4f24ec8951d6539d69bb2c91142a8d2cc14"
+    },
+    "HW1/evaluate.py": {
+      "bytes": 3811,
+      "sha256": "151176889d2eb56b97943f7a01785c2f095327379eb4c50c3728da94957fe45a"
+    },
+    "HW1/evaluate_pure.py": {
+      "bytes": 16795,
+      "sha256": "e59ef810c838e32e3120cdad4d85350d68591c29088870d50126992ca76aed07"
+    },
+    "HW1/evaluation.py": {
+      "bytes": 6721,
+      "sha256": "30d8c558ae28feb447263bfda297f717d47360f74bf0bb8354eb4755772acde7"
+    },
+    "HW1/experiments/diagnostics_v1/data_manifest.json": {
+      "bytes": 115334,
+      "sha256": "da333e5f51a5e995f64a26d210a36a0bfd6b5a95b7b6cf7f0ba9d086e617871e"
+    },
+    "HW1/experiments/pure_vae_spatial_v2/config.json": {
+      "bytes": 2553,
+      "sha256": "81e35d2624ddf2c256e32a01bd3477041faebaecefea63d4579b9c231ce7206a"
+    },
+    "HW1/experiments/pure_vae_spatial_v2/evaluation/generation_manifest.json": {
+      "bytes": 38797,
+      "sha256": "27e9aade7743cf7cb3380a3b561517f1521be040cc77e6eb74bb388508fd15e0"
+    },
+    "HW1/experiments/pure_vae_spatial_v2/evaluation/generation_metrics.json": {
+      "bytes": 11765,
+      "sha256": "3a5e6042dfe60ca59e076aa9c1f3e0b10e29d3b1e1d5b2fd239d89b7659fc990"
+    },
+    "HW1/experiments/pure_vae_spatial_v2/evaluation/reconstruction_metrics.json": {
+      "bytes": 3262,
+      "sha256": "b065d5a8bc4846b077e31e6c3b50f0825e5acbd936d7646c4a938e31b7d9e699"
+    },
+    "HW1/experiments/pure_vae_spatial_v2/evaluation/visual_manifest.json": {
+      "bytes": 13125,
+      "sha256": "c886f521ab58753eeae8581b9f53f3b5e729025653e740321645802137840836"
+    },
+    "HW1/experiments/pure_vae_spatial_v2/history.json": {
+      "bytes": 16548,
+      "sha256": "d7bedafcff53122ea174d4a119c4f5128e00b9efb7b550593b12252f4dd54667"
+    },
+    "HW1/experiments/pure_vae_spatial_v2/segments.json": {
+      "bytes": 3078,
+      "sha256": "fb92745c5c76aca442fe8edea21850361400551111c7d3bc30e9943d32629b68"
+    },
+    "HW1/experiments/pure_vae_spatial_v2/selection.json": {
+      "bytes": 754,
+      "sha256": "4c033c593496816422ee03b40706f78f0e4fc4f694e14aab9545bc0d75699a03"
+    },
+    "HW1/experiments/pure_vae_spatial_v2/training_manifest.json": {
+      "bytes": 224907,
+      "sha256": "dea7ae710fd7c362dad3f35972cbb198b77f1dbbc4200524f3c2fb598bd00510"
+    },
+    "HW1/experiments/pure_vae_v1/config.json": {
+      "bytes": 1564,
+      "sha256": "01caf3071f21f7a9a39efc8623105328f1615e7cbecdcf8571108fcbb960dfcb"
+    },
+    "HW1/experiments/pure_vae_v1/history.json": {
+      "bytes": 10398,
+      "sha256": "14ea2bc21430bb91e169fc8df6e486b5a8e1844c032eeaa2c8565c581ad7b27a"
+    },
+    "HW1/experiments/pure_vae_v1/segments.json": {
+      "bytes": 2041,
+      "sha256": "37fea3ac8f4cfa81c4a78b354c8adf8877e6f2438c1ac35c048f4ef4a46e6b0a"
+    },
+    "HW1/experiments/pure_vae_v1/training_manifest.json": {
+      "bytes": 224907,
+      "sha256": "dea7ae710fd7c362dad3f35972cbb198b77f1dbbc4200524f3c2fb598bd00510"
+    },
+    "HW1/experiments/pure_vae_v2/config.json": {
+      "bytes": 1980,
+      "sha256": "477aaf3aaa8c53ec25a9ee2d4b9c501fb345733c28c191047926b9cebe187b03"
+    },
+    "HW1/experiments/pure_vae_v2/history.json": {
+      "bytes": 26076,
+      "sha256": "75c7e27357b7535e1cf61912f9bffc469063aa83acda8ee4845bc1030061a03d"
+    },
+    "HW1/experiments/pure_vae_v2/segments.json": {
+      "bytes": 4576,
+      "sha256": "c8e6a64bfab20e85a85c73ebf1cf3b8b2d1ed50ce974855e68ee652b76467156"
+    },
+    "HW1/experiments/pure_vae_v2/training_manifest.json": {
+      "bytes": 224907,
+      "sha256": "dea7ae710fd7c362dad3f35972cbb198b77f1dbbc4200524f3c2fb598bd00510"
+    },
+    "HW1/main.tex": {
+      "bytes": 20700,
+      "sha256": "a54e3f0abcc3144b810c29702b722fef476d289fd64d95ec5e6d900bd7e83fef"
+    },
+    "HW1/report/Homework_1_PureVAE.pdf": {
+      "bytes": 187555,
+      "sha256": "53b37b00cec6c6d137193ce1a81be5f5aa8807484b2f3dbc58e06373a4952827"
+    },
+    "HW1/report/figures/pure_baseline.png": {
+      "bytes": 43713,
+      "sha256": "8a2ca128ab0f04c42f83209ffdf1f19807a3f76bf245d2fb0067899bb4d7e7ce"
+    },
+    "HW1/report/figures/pure_selected.png": {
+      "bytes": 58108,
+      "sha256": "6d98654f4f433c0f97110a33d12940130c14b5b20d885a7261f2f82ab626cc36"
+    },
+    "HW1/report/figures/pure_training.png": {
+      "bytes": 57004,
+      "sha256": "b1d79e469bc0045adce913b151f633a907d52fa294cbc721031bb1677575d2f4"
+    },
+    "HW1/report/neurips_2026.sty": {
+      "bytes": 13704,
+      "sha256": "c3fc2894e83d2517ca18b66741d6c595986d97957dc08ec08bb2125a7ec4555a"
+    },
+    "HW1/requirements.txt": {
+      "bytes": 165,
+      "sha256": "8b0828a00ae18c9f8e433f6579c11c33866c2aeac543d5692caf9779a0d611c4"
+    },
+    "HW1/results/generated_seed1285.png": {
+      "bytes": 230044,
+      "sha256": "e7dbcf1fb9654931110287d6472a9d45e436a430ae10b9873edc1503924ab3cf"
+    },
+    "HW1/results/generated_seed2285.png": {
+      "bytes": 234216,
+      "sha256": "215d601a3625b4eea0e007c68c07d6b86aacd1f50329191bcf534ea6dc81f1f8"
+    },
+    "HW1/results/generated_seed285.png": {
+      "bytes": 240845,
+      "sha256": "2bd5251495f42730ac5d7151c50f7e96baba691c92393fa11973d251b041523b"
+    },
+    "HW1/results/metrics.json": {
+      "bytes": 2261,
+      "sha256": "1df59fffb2c962eb8d73aa24ae0470b42582c0617a6b3b3b527499cbb5183a9a"
+    },
+    "HW1/results/prior_comparison_seed285.png": {
+      "bytes": 430481,
+      "sha256": "cc18533e0135b8d3e5f8b2c18e4abad994a57b53a926e02d28726b778df5d6d6"
+    },
+    "HW1/results/reconstructions.png": {
+      "bytes": 172525,
+      "sha256": "ad97dc98b218182256020e2c409af9ca29fc6e43d24217f3a9e8d9337b64e254"
+    },
+    "HW1/run_diagnostics.py": {
+      "bytes": 16814,
+      "sha256": "bb288aabe1f26397f8efd9b533f500a16dd5204057ced837488c4ca087ae1bfe"
+    },
+    "HW1/scripts/evaluate_diagnostics.py": {
+      "bytes": 6434,
+      "sha256": "a35536dc53356c79ae68e2e1adea1628baed5a5207345e1dae7aad3689c96d0b"
+    },
+    "HW1/scripts/summarize_diagnostics.py": {
+      "bytes": 28665,
+      "sha256": "f669fe016a7a688b8147fa254b25ed3e67d4e8859c287c3806700935cf5fb162"
+    },
+    "HW1/spatial_vae.py": {
+      "bytes": 11179,
+      "sha256": "9f8c72e0e18729980915380d4ec71c803527a3d0370e034e7db725696b3b9587"
+    },
+    "HW1/tests/test_diagnostic_metrics.py": {
+      "bytes": 3952,
+      "sha256": "33dcd9e7a5e7b7673caa1c0ae439f28952fd47a85e0d8a77666eb65c03be211b"
+    },
+    "HW1/tests/test_evaluation.py": {
+      "bytes": 1844,
+      "sha256": "1c01de70a4c932682fa7c109dc54d8d4c0ee13e3dd63c14da344d9ee47954cd0"
+    },
+    "HW1/tests/test_pure_evaluation.py": {
+      "bytes": 3172,
+      "sha256": "7ac2b583c29d55b4631b2cd7f6b843d8f2d46027a53c3c550e8015fbb3766ea0"
+    },
+    "HW1/tests/test_pure_ssim.py": {
+      "bytes": 2452,
+      "sha256": "a8000e4ba88bcda0cbf4ad2a227b7f87943a047efb04c85d8412154a615bc420"
+    },
+    "HW1/tests/test_pure_training.py": {
+      "bytes": 2416,
+      "sha256": "d0b94577753b0f35215a12f64e5ccb8f9d6b0178fd2ec02b48338198cae8bb3b"
+    },
+    "HW1/tests/test_spatial_vae.py": {
+      "bytes": 6724,
+      "sha256": "734941e91fb9d1191dc8cbfe917a39ccea8814c31b02d4e9ae8b3aad2d4cac94"
+    },
+    "HW1/train.py": {
+      "bytes": 13517,
+      "sha256": "c135f7a0283c1009003b76316900b5a5457cc335bae106882f8a4f24ade2fbd3"
+    },
+    "HW1/train_pure.py": {
+      "bytes": 22828,
+      "sha256": "501cc19b65d4586769f4f9d1b8502f61ee1d97c2fa2aae65bc2a93e1ce334a96"
+    },
+    "HW1/vae.py": {
+      "bytes": 5944,
+      "sha256": "fa4342b4cac25b1f52abd6e9566b2bc5a6d63112472cea32077fc72005d3a382"
+    },
+    "README.md": {
+      "bytes": 571,
+      "sha256": "6d8f47404a64e2e73eeb796ef249dee8667ed453a0a21f2c3901ea456c5ba519"
+    }
+  }
+}

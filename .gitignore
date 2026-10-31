@@ -1,0 +1,60 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.uv-cache/
+*.egg-info/
+
+# Datasets, downloaded networks, and local tools
+data/
+datasets/
+pretrained/
+.kaggle-cache/
+.torch-cache/
+.mpl-cache/
+.tex-cache/
+.tools/
+
+# Model weights and optimizer checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Temporary runs and delivery archives
+runs/
+tmp/
+output/
+*.zip
+*.tar
+*.tar.gz
+*.log
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+credentials.json
+*.pem
+*.key
+
+# LaTeX build files; keep the submitted PDF and figures
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/

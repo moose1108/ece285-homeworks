@@ -1,0 +1,17 @@
+{
+  "model_type": "pure_vae",
+  "architecture": "spatial",
+  "posterior_mode": "conditional_absolute",
+  "source_checkpoint": "model_step_003000.pt",
+  "checkpoint_sha256": "86444e6be01ed8cba6a484619388381cebc0bcc83b9c8c29e5e698177d56456b",
+  "selected_step": 3000,
+  "selected_before_final_fid": true,
+  "fixed_seeds": [
+    285,
+    1285,
+    2285
+  ],
+  "samples_per_seed": 25,
+  "selection": "Whole-model visual review of all complete prior grids; no individual-image selection, no sharpening, no temperature reduction",
+  "rationale": "Visible thoracic/rib structure and less scattered mottling than the original global VAE and the residual spatial branch. Final3000 weights retain variation, with soft centers and irregular rib bands remaining."
+}

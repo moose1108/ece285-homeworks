@@ -1,0 +1,61 @@
+{
+  "model": {
+    "type": "pure_vae",
+    "architecture": "spatial",
+    "posterior_mode": "conditional_absolute",
+    "parameter_count": 5950481,
+    "image_size": 128,
+    "latent_dim": 1152,
+    "checkpoint_sha256": "86444e6be01ed8cba6a484619388381cebc0bcc83b9c8c29e5e698177d56456b",
+    "initializer_sha256": "a59171e78e059a24e6be1dcaa03265f321471851a573cc54943ed874d5c7483c"
+  },
+  "generation": {
+    "fid": 362.7236308775303,
+    "inception_score": 1.869810184810248,
+    "sample_count": 512,
+    "real_dataset_split": "test",
+    "real_dataset_size": 624,
+    "real_index_seed": 286,
+    "latent_seed": 285,
+    "latent_shape": [
+      512,
+      1152
+    ],
+    "latent_sha256": "06bbe4a1b67f5beec4e935af36062a2ce20499edd4ed05db352fc2a513b6ca2a",
+    "protocol": "torchvision-pool3-imagenet-normalized-v1",
+    "preprocessing": "Grayscale repeated to RGB; bilinear antialiased resize to 299x299; ImageNet mean/std; Torchvision transform_input=True",
+    "inception_weights": "IMAGENET1K_V1",
+    "fid_features": "2048-D average-pool features before fc",
+    "is_features": "1000-class softmax from original fc",
+    "aggregation": "ignite.metrics.FID and ignite.metrics.InceptionScore; CPU"
+  },
+  "reconstruction": {
+    "sample_count": 255,
+    "dataset_split": "official train",
+    "scope": "Train-seen diagnostic, not held-out validation",
+    "method": "decode(mu); no posterior noise",
+    "mae": 0.017248766186336677,
+    "mse": 0.0006722147096012372,
+    "ssim": 0.890845629046945,
+    "psnr": 32.659318856632005
+  },
+  "baseline": {
+    "fid": 376.37522235681496,
+    "inception_score": 1.6890154713847714,
+    "sample_count": 512,
+    "latent_dim": 128,
+    "checkpoint_sha256": "a59171e78e059a24e6be1dcaa03265f321471851a573cc54943ed874d5c7483c",
+    "comparison": "Same real images, seed and Inception protocol; latent dimensionality differs"
+  },
+  "visual_sampling": {
+    "seeds": [
+      285,
+      1285,
+      2285
+    ],
+    "images_per_seed": 25,
+    "temperature": 1,
+    "selection": "Complete fixed grids; no individual-image selection or sharpening"
+  },
+  "limits": "Single seed, 512-sample estimate; historical official-test observations. Scores are not interchangeable with TensorFlow, pytorch-fid or Clean-FID protocols."
+}
