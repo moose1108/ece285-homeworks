@@ -455,6 +455,7 @@
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
 \usepackage{url}
+\usepackage[hidelinks]{hyperref}
 \urlstyle{same}
 \graphicspath{{overleaf_assets/}{report/figures/}{figures/}}
 % PURE_CONTINUATION_REPORT
@@ -498,6 +499,8 @@ A Gaussian VAE generates $128\times128$ chest X-rays using
 \PureReconstructionName{} reconstruction and KL regularization.
 Evaluation gives FID \PureFID{} and IS \PureIS{}; fidelity remains limited.
 \end{abstract}
+
+\noindent\textbf{Code and results:} \url{https://github.com/moose1108/ece285-homeworks}
 
 \section{Data and model}
 Kaggle v2~\cite{data}: 5,216 train/624 test images; labels and 16 validation

@@ -121,12 +121,12 @@
       "sha256": "dea7ae710fd7c362dad3f35972cbb198b77f1dbbc4200524f3c2fb598bd00510"
     },
     "HW1/main.tex": {
-      "bytes": 20700,
-      "sha256": "a54e3f0abcc3144b810c29702b722fef476d289fd64d95ec5e6d900bd7e83fef"
+      "bytes": 20822,
+      "sha256": "5c678ddbc72fe2d626102ed5314cd8cc117254f7689dc968a8c100bfa42549ef"
     },
     "HW1/report/Homework_1_PureVAE.pdf": {
-      "bytes": 187555,
-      "sha256": "53b37b00cec6c6d137193ce1a81be5f5aa8807484b2f3dbc58e06373a4952827"
+      "bytes": 189054,
+      "sha256": "bb3917ec7480830df1f96dd3d9fd2c3d8086e09ffd88556d9f3c3862ebf4f441"
     },
     "HW1/report/figures/pure_baseline.png": {
       "bytes": 43713,
