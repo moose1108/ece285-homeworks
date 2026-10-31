@@ -9,8 +9,8 @@
       "sha256": "9621790ba84f8d25d804bbf4590de06b31fc1dd68c9871ea00b4254050d5d274"
     },
     "HW1/README.md": {
-      "bytes": 6284,
-      "sha256": "6037314f4570741eb48944d015fe3de5948c9f096258cde1927cee3c642faf66"
+      "bytes": 7115,
+      "sha256": "82ebea43a6fb8c7fe10878639d259cd3211a4cc0a085d36637161abcc41601fc"
     },
     "HW1/artifacts/config.json": {
       "bytes": 490,
@@ -225,8 +225,8 @@
       "sha256": "fa4342b4cac25b1f52abd6e9566b2bc5a6d63112472cea32077fc72005d3a382"
     },
     "README.md": {
-      "bytes": 571,
-      "sha256": "6d8f47404a64e2e73eeb796ef249dee8667ed453a0a21f2c3901ea456c5ba519"
+      "bytes": 732,
+      "sha256": "b6c0a189ac884d5ddbd41f072605118aed29d6e01eefeb78915ed09b1e9ddb35"
     }
   }
 }
