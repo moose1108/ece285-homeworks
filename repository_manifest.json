@@ -1,7 +1,7 @@
 {
   "repository": "ece285-homeworks",
   "visibility": "public",
-  "contents": "Pure VAE source, lightweight recorded results and report; no data or model weights",
+  "contents": "ECE 285 homework code, reports, and recorded results; datasets and model weights are excluded",
   "metadata_paths": "Workspace prefixes replaced with relative paths; numeric results and checkpoint hashes retained",
   "files": {
     ".gitignore": {
@@ -224,9 +224,65 @@
       "bytes": 5944,
       "sha256": "fa4342b4cac25b1f52abd6e9566b2bc5a6d63112472cea32077fc72005d3a382"
     },
+    "HW2/ECE285_HW2_Colab.ipynb": {
+      "bytes": 4887205,
+      "sha256": "ebaa0a399dc1c1073f5b3bb8dfa8e2673d5890746a214a82355d0375dfbd9db1"
+    },
+    "HW2/ECE285_HW2_submission/fid_log.csv": {
+      "bytes": 330,
+      "sha256": "4cc73a48907f44a2143c76dceb5f1ce3a0494e0702aca8c03b81b46e176bfcbb"
+    },
+    "HW2/ECE285_HW2_submission/fig_samples.png": {
+      "bytes": 1990675,
+      "sha256": "e62468228b6b5ec4f6be99b300f8c076f6c59bbb1d400f8bf7d00f97acc2fb0b"
+    },
+    "HW2/ECE285_HW2_submission/fig_training.png": {
+      "bytes": 86500,
+      "sha256": "db59bc7d81f1b03e1ce919642980c614c9fb85a5c5d75a562ecbf070316a2e23"
+    },
+    "HW2/ECE285_HW2_submission/final_samples.png": {
+      "bytes": 2193182,
+      "sha256": "51f25678c5faff6267caa92913c6050741f6fcd22af8f3ff0cf2fb8ec0bd5032"
+    },
+    "HW2/ECE285_HW2_submission/history.csv": {
+      "bytes": 6233,
+      "sha256": "c1f4ce5f90f0e5491de9e187923be386fa8aa402b7771a8e6ddf57ba45f260ef"
+    },
+    "HW2/ECE285_HW2_submission/metrics.json": {
+      "bytes": 406,
+      "sha256": "8fe21a295276154e2a598b2c929ec5cf713064e308ce710f76ca8d89c0f67ece"
+    },
+    "HW2/ECE285_HW2_submission/neurips_2023.sty": {
+      "bytes": 11306,
+      "sha256": "eb93f61e73bcf40b1d355da8c464951b513e8f531026f162ac80d51fce921abd"
+    },
+    "HW2/ECE285_HW2_submission/report.pdf": {
+      "bytes": 2941756,
+      "sha256": "64cbcb1c38b194d9d6ebf736969a76e07c14545d78a1ae654822fff6a99dcaaa"
+    },
+    "HW2/ECE285_HW2_submission/report.tex": {
+      "bytes": 6796,
+      "sha256": "4703665c03dda65bb6d9a8a8766c6e551e85da94271611143ab80a0c5f15d4e3"
+    },
+    "HW2/ECE285_HW2_submission/run_config.json": {
+      "bytes": 525,
+      "sha256": "a9d0e5b67cf1f814d020f89a9010908e703f06b1d1585ac17b40b910fdce318e"
+    },
+    "HW2/ECE285_HW2_submission/train_log.csv": {
+      "bytes": 53709,
+      "sha256": "c03e94f8317245ccbdce20f5584459eee58542738239a82398945dd7143ed3e4"
+    },
+    "HW2/README.md": {
+      "bytes": 5300,
+      "sha256": "707a9be101f75c89f89dab82109abc7add571d30aabbf7940a21bd94d5c8bf90"
+    },
     "README.md": {
-      "bytes": 732,
-      "sha256": "b6c0a189ac884d5ddbd41f072605118aed29d6e01eefeb78915ed09b1e9ddb35"
+      "bytes": 876,
+      "sha256": "05a24941f38105f5fded1fd27fd26552a7c96430150c13284d68eefed42a00ed"
     }
-  }
+  },
+  "assignments": [
+    "HW1",
+    "HW2"
+  ]
 }

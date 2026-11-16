@@ -7,6 +7,7 @@ Code, experiment configurations, and results for ECE 285 homework assignments. E
 | Assignment | Topic | Contents |
 | --- | --- | --- |
 | [HW1](HW1/) | Variational Autoencoder | Chest X-ray generation, pure VAE training and evaluation, result figures, and report |
+| [HW2](HW2/) | Generative Adversarial Network | WikiArt painting synthesis, Colab training notebook, evaluation records, figures, and report |
 
 Add subsequent assignments as `HW2/`, `HW3/`, and so on, and update this index.
 

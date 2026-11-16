@@ -1,0 +1,27 @@
+{
+  "epochs": 52,
+  "steps_per_epoch": 1145,
+  "config": {
+    "image_size": 64,
+    "latent_dim": 128,
+    "ch": 48,
+    "batch_size": 64,
+    "lr_g": 0.0001,
+    "lr_d": 0.0004,
+    "beta1": 0.0,
+    "beta2": 0.9,
+    "ema_decay": 0.999,
+    "lr_decay_start": 0.5,
+    "val_fraction": 0.1,
+    "seed": 285,
+    "eval_every": 5,
+    "monitor_samples": 5000
+  },
+  "train_images": 73313,
+  "heldout_images": 8131,
+  "classes": 27,
+  "params_g": 5004483,
+  "params_d": 5537041,
+  "gpu": "Tesla T4",
+  "torch": "2.14.1+cu130"
+}

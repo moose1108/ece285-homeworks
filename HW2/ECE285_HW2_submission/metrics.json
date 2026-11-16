@@ -1,0 +1,14 @@
+{
+  "fid": 25.047675802811284,
+  "inception_score": 5.134609074900177,
+  "fid_ignite_default_softmax_features": 0.03536984567924478,
+  "reference_fid_real_train_vs_heldout": 7.186132991343072,
+  "reference_is_real_heldout": 7.485934313650706,
+  "num_generated": 8131,
+  "num_real_heldout": 8131,
+  "checkpoint_epoch": 50,
+  "epochs_trained": 52,
+  "seed": 285,
+  "image_size": 64,
+  "ema_generator": true
+}
