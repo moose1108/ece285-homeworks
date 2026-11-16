@@ -9,16 +9,18 @@ An unconditional residual GAN trained on 64 x 64 WikiArt paintings. The discrimi
 | Path | Contents |
 | --- | --- |
 | [ECE285_HW2_Colab.ipynb](ECE285_HW2_Colab.ipynb) | Training, checkpoint loading, evaluation, plots, and recorded outputs |
-| [ECE285_HW2_submission/report.pdf](ECE285_HW2_submission/report.pdf) | Completed report |
-| [ECE285_HW2_submission/report.tex](ECE285_HW2_submission/report.tex) | Report source; compile alongside the supplied style and figures |
-| [ECE285_HW2_submission/neurips_2023.sty](ECE285_HW2_submission/neurips_2023.sty) | NeurIPS style required by the report source |
-| [ECE285_HW2_submission/metrics.json](ECE285_HW2_submission/metrics.json) | Full final evaluation results |
-| [ECE285_HW2_submission/run_config.json](ECE285_HW2_submission/run_config.json) | Recorded configuration, dataset counts, model sizes, and hardware |
-| [ECE285_HW2_submission/train_log.csv](ECE285_HW2_submission/train_log.csv) | Training statistics averaged over 100-iteration windows |
-| [ECE285_HW2_submission/history.csv](ECE285_HW2_submission/history.csv) | Per-epoch losses, learning-rate scale, and elapsed time |
-| [ECE285_HW2_submission/fid_log.csv](ECE285_HW2_submission/fid_log.csv) | Training-time FID monitoring |
+| [report/report.pdf](report/report.pdf) | Completed report |
+| [report/report.tex](report/report.tex) | Report source; compile from `report/` |
+| [report/neurips_2023.sty](report/neurips_2023.sty) | NeurIPS style required by the report source |
+| [report/figures/](report/figures/) | Training curves and the real/generated image comparison used in the report |
+| [results/metrics.json](results/metrics.json) | Full final evaluation results |
+| [results/final_samples.png](results/final_samples.png) | Complete 256-image generated grid |
+| [experiments/wikiart_resgan64/run_config.json](experiments/wikiart_resgan64/run_config.json) | Recorded configuration, dataset counts, model sizes, and hardware |
+| [experiments/wikiart_resgan64/train_log.csv](experiments/wikiart_resgan64/train_log.csv) | Training statistics averaged over 100-iteration windows |
+| [experiments/wikiart_resgan64/history.csv](experiments/wikiart_resgan64/history.csv) | Per-epoch losses, learning-rate scale, and elapsed time |
+| [experiments/wikiart_resgan64/fid_log.csv](experiments/wikiart_resgan64/fid_log.csv) | Training-time FID monitoring |
 
-The notebook contains the training and evaluation code. The report is supplied separately; the notebook exports the figures used in it.
+The notebook contains the training and evaluation code. The report is supplied separately; the notebook exports the figures used in it. Archived files are grouped by purpose here; the notebook continues to write its outputs under the configured Drive run directory.
 
 ## Recorded experiment
 
@@ -51,13 +53,13 @@ The final generator's BatchNorm statistics are recalculated with 25,000 generate
 
 The final evaluation uses 8,131 generated images and 8,131 held-out paintings. FID uses 2,048-dimensional Inception pool features; IS uses 1,000-class probabilities. Inputs are resized to 299 x 299 and ImageNet-normalized. Generated images are quantized to 8 bits before feature extraction. The real-image reference compares a training subset with the held-out set for FID and evaluates the held-out images for IS.
 
-The best training monitor FID is **29.1117** at epoch 50. That monitor uses 5,000 training reference images and is a separate measurement from the final held-out FID of **25.0477**. The softmax-feature FID in `metrics.json` is retained as a diagnostic; it is not the main reported FID.
+The best training monitor FID is **29.1117** at epoch 50. That monitor uses 5,000 training reference images and is a separate measurement from the final held-out FID of **25.0477**. The softmax-feature FID in `results/metrics.json` is retained as a diagnostic; it is not the main reported FID.
 
-![Training losses and FID monitoring](ECE285_HW2_submission/fig_training.png)
+![Training losses and FID monitoring](report/figures/fig_training.png)
 
-![Held-out paintings and uncurated generated samples](ECE285_HW2_submission/fig_samples.png)
+![Held-out paintings and uncurated generated samples](report/figures/fig_samples.png)
 
-[View the complete 256-image generated grid](ECE285_HW2_submission/final_samples.png).
+[View the complete 256-image generated grid](results/final_samples.png).
 
 ## Running the notebook
 
@@ -72,4 +74,4 @@ The saved notebook outputs show a completed Drive run being loaded again, follow
 
 ## Report source
 
-Upload `report.tex`, `neurips_2023.sty`, `fig_training.png`, and `fig_samples.png` from `ECE285_HW2_submission/` to Overleaf, and select `report.tex` as the main document. The supplied PDF is the original completed report.
+Upload the contents of `report/` to the root of an Overleaf project, retaining the `figures/` subdirectory, and select `report.tex` as the main document. For local compilation, run LaTeX from `HW2/report/`. The supplied PDF is the original completed report.

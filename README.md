@@ -11,6 +11,8 @@ Code, experiment configurations, and results for ECE 285 homework assignments. E
 
 Add subsequent assignments as `HW2/`, `HW3/`, and so on, and update this index.
 
+Group report PDFs and figures under `report/`, final metrics and samples under `results/`, and run configurations and logs under `experiments/`.
+
 Write all READMEs and specifications in English.
 
 Datasets, model weights, virtual environments, and caches are excluded from Git. See each assignment's README for setup instructions and the requirements for reproducing recorded results.
