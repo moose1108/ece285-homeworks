@@ -261,12 +261,12 @@
       "sha256": "eb93f61e73bcf40b1d355da8c464951b513e8f531026f162ac80d51fce921abd"
     },
     "HW2/report/report.pdf": {
-      "bytes": 2941756,
-      "sha256": "64cbcb1c38b194d9d6ebf736969a76e07c14545d78a1ae654822fff6a99dcaaa"
+      "bytes": 1908744,
+      "sha256": "460a32345aeb0efbad317a6a3e60b4dc51d23fa65176f82bd7692a84437212e3"
     },
     "HW2/report/report.tex": {
-      "bytes": 6822,
-      "sha256": "acdad97f477d75f49df8ef522a47da5bbcea332ba5fc4a6c2bf1eb2e8ec530d0"
+      "bytes": 6922,
+      "sha256": "1dd8e6312d171c9bb3532ecfe935df1841ce6d35724eac21c19b6bc6e288187d"
     },
     "HW2/results/final_samples.png": {
       "bytes": 2193182,
